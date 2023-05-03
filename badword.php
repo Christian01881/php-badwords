@@ -22,7 +22,7 @@ $censuredText = str_replace($userText, '***', $Text);
 
     <h2 class="mt-4">Testo censurato:</h2>
     <p class="mt-4">
-        <?php echo $censuredText .'<br> Numero di caratteri nel paragrafo: '. strlen($censuredText); ?>
+        <?php echo $censuredText .'<br> Numero di caratteri nel paragrafo: '. strlen($Text); ?>
     </p>
 </body>
 </html>
