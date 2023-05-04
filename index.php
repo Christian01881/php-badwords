@@ -8,7 +8,7 @@
     <title>PHP Badwords</title>
 </head>
 <body>
-    <form action="./badword.php" class="d-flex flex-column align-items-center text-center">
+    <form action="./badword.php" method="GET" class="d-flex flex-column align-items-center text-center">
         <h1 class="text-center fs-1 mt-5">PHP Badwords</h1>
         <label for="userText" class="form-label mt-5">Inserisci la parola da censurare</label>
         <input type="text" name="userText" id="userText" class="w-50">
